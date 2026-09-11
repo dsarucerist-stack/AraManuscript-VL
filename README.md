@@ -14,7 +14,7 @@
   <a href="https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct">
     <img src="https://img.shields.io/badge/Base%20Model-Qwen2.5--VL--3B--Instruct-blue" alt="Base Model">
   </a>
-  <a href="https://huggingface.co/spaces/dsaru-cerist/AraManuscript-VL">
+  <a href="https://huggingface.co/dsaru-cerist/AraManuscript-VL">
     <img src="https://img.shields.io/badge/Fine--Tuned%20Model-Hugging%20Face-yellow" alt="Fine-Tuned Model">
   </a>
   <a href="https://huggingface.co/spaces/dsaru-cerist/AraManuscript-VL-demo">
