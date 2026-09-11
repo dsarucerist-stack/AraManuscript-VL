@@ -2,7 +2,7 @@
   <img src="cerist_logo.webp" width="45" align="left">
   <img src="kalima_logo.png" width="65" align="right" style="vertical-align: -5px;">
 
-  <h1 align="center">Qwen2.5-VL-3B Arabic Manuscript Recognition</h1>
+  <h1 align="center">AraManuscript-VL</h1>
 </p>
 
 <p align="center">
@@ -42,8 +42,8 @@ The adaptation is performed using **LoRA** through the Hugging Face **PEFT** fra
 
 | Metric | Score |
 |:---|---:|
-| **Character Error Rate (CER)** | **6.67%** |
-| **Word Error Rate (WER)** | **22.13%** |
+| **Character Error Rate (CER)** | **6.58%** |
+| **Word Error Rate (WER)** | **22.34%** |
 
 Lower values indicate better recognition performance.
 
