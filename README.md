@@ -2,7 +2,7 @@
   <img src="cerist_logo.webp" width="45" align="left">
   <img src="kalima_logo.png" width="65" align="right" style="vertical-align: -5px;">
 
-  <h1 align="center">AraManuscript-VL</h1>
+  <h1 align="center">AraManuscript-VL: Arabic Manuscript Recognition</h1>
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
   <a href="https://huggingface.co/Belgacem123/Qwen2.5-VL-3B-Arabic-Manuscript-Recognition">
     <img src="https://img.shields.io/badge/Fine--Tuned%20Model-Hugging%20Face-yellow" alt="Fine-Tuned Model">
   </a>
-  <a href="https://huggingface.co/spaces/Belgacem123/Arabic-Manuscript-Recognition-Demo">
+  <a href="https://huggingface.co/dsaru-cerist/AraManuscript-VL-Demo">
     <img src="https://img.shields.io/badge/Live%20Demo-Hugging%20Face%20Space-orange" alt="Live Demo">
   </a>
 </p>
