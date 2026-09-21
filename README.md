@@ -93,6 +93,7 @@ The model was trained and evaluated using the following publicly available datas
 
 - **Kalima Dataset** (Bouchal et al., 2025 [[**1**]](#ref1))
 - **KHATT Dataset** (Mahmoud et al., 2014 [[**2**]](#ref2))
+- **Hcima Dataset** (official website) https://hicma.net/goal.html
 - **Muharaf Dataset** ([Hugging Face]([https://huggingface.co/datasets/aamijar/muharaf-public]))
 - **Nakba Dataset** ([Hugging Face]([https://huggingface.co/datasets/U4RASD/omar-al-saleh-manuscripts-full]))
 - **Baybars Dataset** ([Hugging Face]([https://huggingface.co/datasets/calfa-ai/baybars]))
