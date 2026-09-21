@@ -85,6 +85,7 @@ Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Datasets
 
@@ -113,7 +114,7 @@ If you use this model, fine-tuning code, or results in your research, please cit
   year    = {2026},
   url     = {https://github.com/khawlabel/Qwen2.5-VL-3B-Arabic-Manuscript-Recognition}
 }
-
+```
 ## References
 
 <a id="ref1"></a>
