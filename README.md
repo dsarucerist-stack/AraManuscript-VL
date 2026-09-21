@@ -85,3 +85,41 @@ Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
+
+## Datasets
+
+The model was trained and evaluated using the following publicly available datasets:
+
+- **Kalima Dataset** (Bouchal et al., 2025 [[**1**]](#ref1))
+- **KHATT Dataset** (Mahmoud et al., 2014 [[**2**]](#ref2))
+- **Muharaf Dataset** ([Hugging Face]([https://huggingface.co/datasets/aamijar/muharaf-public]))
+- **Nakba Dataset** ([Hugging Face]([https://huggingface.co/datasets/U4RASD/omar-al-saleh-manuscripts-full]))
+- **Baybars Dataset** ([Hugging Face]([https://huggingface.co/datasets/calfa-ai/baybars]))
+- **Iskandar Dataset** ([Hugging Face](https://huggingface.co/datasets/calfa-ai/iskandar))
+- **RASAM Dataset** ([Hugging Face](https://huggingface.co/datasets/johnlockejrr/RASAM))
+- **RASAM-1 Dataset** ([Hugging Face](https://huggingface.co/datasets/calfa-ai/RASAM-1))
+- **RASAM-2 Dataset** ([Hugging Face](https://huggingface.co/datasets/calfa-ai/RASAM-2))
+- **Egypt word Dataset** ([Hugging Face](https://huggingface.co/datasets/OmarMDiab/Egyptian-Handwriting-Dataset))
+
+
+## Citation
+
+If you use this model, fine-tuning code, or results in your research, please cite this work:
+
+```bibtex
+@software{belgacem2026qwen_arabic_manuscript,
+  author  = {Khawla Belgacem and Ahror Belaid},
+  title   = {Qwen2.5-VL Arabic Manuscript Recognition},
+  year    = {2026},
+  url     = {https://github.com/khawlabel/Qwen2.5-VL-3B-Arabic-Manuscript-Recognition}
+}
+
+## References
+
+<a id="ref1"></a>
+
+[1] H. Bouchal, A. Belaid, and F. Meziane, "Towards accurate recognition of historical Arabic manuscripts: A novel dataset and a generalizable pipeline," *ACM Transactions on Asian and Low-Resource Language Information Processing*, vol. 24, no. 10, pp. 1–30, 2025.
+
+<a id="ref2"></a>
+
+[2] S. A. Mahmoud, I. Ahmad, W. G. Al-Khatib, M. Alshayeb, M. T. Parvez, V. Märgner, and G. A. Fink, "KHATT: An open Arabic offline handwritten text database," *Pattern Recognition*, vol. 47, no. 3, pp. 1096–1112, 2014. doi:10.1016/j.patcog.2013.08.009.
