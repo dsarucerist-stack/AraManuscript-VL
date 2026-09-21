@@ -108,11 +108,11 @@ The model was trained and evaluated using the following publicly available datas
 If you use this model, fine-tuning code, or results in your research, please cite this work:
 
 ```bibtex
-@software{belgacem2026qwen_arabic_manuscript,
+@software{dsaru-cerist2026qwen_arabic_manuscript,
   author  = {Khawla Belgacem and Ahror Belaid},
   title   = {Qwen2.5-VL Arabic Manuscript Recognition},
   year    = {2026},
-  url     = {https://github.com/khawlabel/Qwen2.5-VL-3B-Arabic-Manuscript-Recognition}
+  url     = {https://huggingface.co/dsaru-cerist/AraManuscript-VL}
 }
 ```
 ## References
