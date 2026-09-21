@@ -87,6 +87,7 @@ Install the required dependencies:
 pip install -r requirements.txt
 ```
 
+
 ## Datasets
 
 The model was trained and evaluated using the following publicly available datasets:
@@ -98,11 +99,10 @@ The model was trained and evaluated using the following publicly available datas
 - **Nakba Dataset** ([Hugging Face]([https://huggingface.co/datasets/U4RASD/omar-al-saleh-manuscripts-full]))
 - **Baybars Dataset** ([Hugging Face]([https://huggingface.co/datasets/calfa-ai/baybars]))
 - **Iskandar Dataset** ([Hugging Face](https://huggingface.co/datasets/calfa-ai/iskandar))
-- **RASAM Dataset** ([Hugging Face](https://huggingface.co/datasets/johnlockejrr/RASAM))
+- **RASM Dataset** (Keinan-Schoonbaert and British Library, 2019 [[**3**]](#ref3)))
 - **RASAM-1 Dataset** ([Hugging Face](https://huggingface.co/datasets/calfa-ai/RASAM-1))
 - **RASAM-2 Dataset** ([Hugging Face](https://huggingface.co/datasets/calfa-ai/RASAM-2))
 - **Egypt word Dataset** ([Hugging Face](https://huggingface.co/datasets/OmarMDiab/Egyptian-Handwriting-Dataset))
-
 
 ## Citation
 
@@ -125,3 +125,7 @@ If you use this model, fine-tuning code, or results in your research, please cit
 <a id="ref2"></a>
 
 [2] S. A. Mahmoud, I. Ahmad, W. G. Al-Khatib, M. Alshayeb, M. T. Parvez, V. Märgner, and G. A. Fink, "KHATT: An open Arabic offline handwritten text database," *Pattern Recognition*, vol. 47, no. 3, pp. 1096–1112, 2014. doi:10.1016/j.patcog.2013.08.009.
+
+<a id="ref3"></a>
+
+[3] A. Keinan-Schoonbaert and British Library, Ground Truth Transcriptions for Training OCR of Historical Arabic Handwritten Texts, 2019. doi:10.23636/1135.
