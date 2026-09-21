@@ -32,7 +32,7 @@
 
 Historical Arabic manuscripts are challenging for automatic handwritten text recognition due to variations in handwriting, historical writing conventions, degraded documents, faded ink, image noise, and differences in document quality.
 
-This project adapts **Qwen2.5-VL-3B-Instruct** for Arabic manuscript. Given a manuscript image, the model generates its corresponding Arabic transcription.
+This project adapts Qwen2.5-VL-3B-Instruct for line-level Arabic manuscript recognition. Given an image of a manuscript line, the model generates its corresponding Arabic transcription.
 
 The adaptation is performed using **LoRA** through the Hugging Face **PEFT** framework.
 
