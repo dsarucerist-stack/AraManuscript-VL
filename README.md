@@ -67,6 +67,22 @@ Training was performed on paired manuscript images and their corresponding Arabi
 
 ---
 
+## Datasets
+
+The model was trained and evaluated using the following publicly available datasets:
+
+- **Kalima Dataset** (Bouchal et al., 2025 [[**1**]](#ref1))
+- **KHATT Dataset** (Mahmoud et al., 2014 [[**2**]](#ref2))
+- **Hcima Dataset** (official website) https://hicma.net/goal.html
+- **Muharaf Dataset** ([Hugging Face]([https://huggingface.co/datasets/aamijar/muharaf-public]))
+- **Nakba Dataset** ([Hugging Face]([https://huggingface.co/datasets/U4RASD/omar-al-saleh-manuscripts-full]))
+- **Baybars Dataset** ([Hugging Face]([https://huggingface.co/datasets/calfa-ai/baybars]))
+- **Iskandar Dataset** ([Hugging Face](https://huggingface.co/datasets/calfa-ai/iskandar))
+- **RASM Dataset** (Keinan-Schoonbaert and British Library, 2019 [[**3**]](#ref3)))
+- **RASAM-1 Dataset** ([Hugging Face](https://huggingface.co/datasets/calfa-ai/RASAM-1))
+- **RASAM-2 Dataset** ([Hugging Face](https://huggingface.co/datasets/calfa-ai/RASAM-2))
+- **Egypt word Dataset** ([Hugging Face](https://huggingface.co/datasets/OmarMDiab/Egyptian-Handwriting-Dataset))
+
 ## Model Integration
 
 The fine-tuned model is integrated into **Kalima OCR**, a comprehensive AI platform for processing and digitizing historical Arabic manuscripts and heritage documents.
@@ -86,23 +102,6 @@ Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-
-
-## Datasets
-
-The model was trained and evaluated using the following publicly available datasets:
-
-- **Kalima Dataset** (Bouchal et al., 2025 [[**1**]](#ref1))
-- **KHATT Dataset** (Mahmoud et al., 2014 [[**2**]](#ref2))
-- **Hcima Dataset** (official website) https://hicma.net/goal.html
-- **Muharaf Dataset** ([Hugging Face]([https://huggingface.co/datasets/aamijar/muharaf-public]))
-- **Nakba Dataset** ([Hugging Face]([https://huggingface.co/datasets/U4RASD/omar-al-saleh-manuscripts-full]))
-- **Baybars Dataset** ([Hugging Face]([https://huggingface.co/datasets/calfa-ai/baybars]))
-- **Iskandar Dataset** ([Hugging Face](https://huggingface.co/datasets/calfa-ai/iskandar))
-- **RASM Dataset** (Keinan-Schoonbaert and British Library, 2019 [[**3**]](#ref3)))
-- **RASAM-1 Dataset** ([Hugging Face](https://huggingface.co/datasets/calfa-ai/RASAM-1))
-- **RASAM-2 Dataset** ([Hugging Face](https://huggingface.co/datasets/calfa-ai/RASAM-2))
-- **Egypt word Dataset** ([Hugging Face](https://huggingface.co/datasets/OmarMDiab/Egyptian-Handwriting-Dataset))
 
 ## Citation
 
