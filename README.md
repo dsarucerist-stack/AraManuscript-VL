@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  Fine-tuning <strong>Qwen2.5-VL-3B-Instruct</strong> for line-level recognition of historical Arabic manuscripts.
+  Fine-tuning <strong>Qwen2.5-VL-3B-Instruct</strong> for recognizing text from historical Arabic manuscript lines.
 </p>
 
 
