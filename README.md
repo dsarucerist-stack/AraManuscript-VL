@@ -44,6 +44,9 @@ The adaptation is performed using **LoRA** through the Hugging Face **PEFT** fra
 |:---|---:|
 | **Character Error Rate (CER)** | **6.58%** |
 | **Word Error Rate (WER)** | **22.34%** |
+| **Character Substitution Error Rate (CSER)** | **5.75%** |
+| **Word Substitution Error Rate (WSER)** | **20.08%** |
+| **Word Correctness Error Rate (WCER)** | **4.27%** |
 
 Lower values indicate better recognition performance.
 
@@ -105,14 +108,30 @@ pip install -r requirements.txt
 
 ## Citation
 
-If you use this model, fine-tuning code, or results in your research, please cite this work:
+If you use this model, its fine-tuning code, results, or the datasets used in this work in your research, please cite the following references:
 
 ```bibtex
 @software{dsaru-cerist2026qwen_arabic_manuscript,
-  author  = {Khawla Belgacem and Ahror Belaid},
+  author  = {Khawla Belgacem and Ahror Belaid et 	
+Hakim Bouchal},
   title   = {Qwen2.5-VL Arabic Manuscript Recognition},
   year    = {2026},
   url     = {https://huggingface.co/dsaru-cerist/AraManuscript-VL}
+}
+```
+
+```bibtex
+@article{bouchal2025towards,
+  author    = {Bouchal, Hakim and Belaid, Ahror and Meziane, Farid},
+  title     = {Towards Accurate Recognition of Historical Arabic Manuscripts: A Novel Dataset and a Generalizable Pipeline},
+  journal   = {ACM Transactions on Asian and Low-Resource Language Information Processing},
+  volume    = {24},
+  number    = {10},
+  articleno = {104},
+  year      = {2025},
+  publisher = {Association for Computing Machinery},
+  doi       = {10.1145/3744243},
+  url       = {https://doi.org/10.1145/3744243}
 }
 ```
 ## References
